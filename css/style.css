@@ -1,0 +1,98 @@
+body, html{
+	height:100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight:400;
+	line-height:1.8em;
+	color:#666;
+}
+.pimg1{
+	background:url('../img/photo1.jpeg')no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+	min-height:100%;
+	position:relative;
+	background-attachment:fixed;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color:#5186db;
+}
+.last{
+	background:url('../img/last.jpeg')no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+	min-height:100%;
+	position:relative;
+	background-attachment:fixed;
+}
+.pimg2{
+	background:url('../img/photo2.jpeg')no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+	min-height:400px;
+	position:relative;
+	background-attachment:fixed;
+}
+.pimg3{
+	background:url('../img/photo3.jpeg')no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  background-size: cover;
+	min-height:400px;
+	position:relative;
+	background-attachment:fixed;
+}
+
+.section{
+	text-align:center;
+	padding:50px 80px;
+}
+
+.section-light{
+	background-color:#f4f4f4;
+	color:#666;
+}
+.section-dark{
+	background-color:#282e34;
+	color:#ddd;
+}
+
+.ptext{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	color:#000;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform:uppercase;
+}
+.ptext .border{
+	background-color:#282e34;
+	color:#fff;
+	padding:20px;
+	opacity:.7;
+}
+.ptext .border:hover{
+	background-color:#f97400;
+	opacity:.8;
+	transition: 1s;
+	color:black;
+}
